@@ -1,0 +1,71 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Front.master.cs" Inherits="Term_Project.Front" %>
+
+<!DOCTYPE html>
+<!-- Student Name: Chandra K. Rai, Narayan Guragain, Bishnu Khanal, Balkrishna Dhakal, Frederico de Moraes Galdino -->
+<!-- Submitted to: S. M. Reza Dibaj -->
+<!-- Date: Oct 21, 2017 -->
+<!-- File Name: Front.Master.aspx -->
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, intitial-scale=1" />
+    <title>ASP.NET Term Project</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <!-- CSS Section -->
+    <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Reenie+Beanie" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dawning+of+a+New+Day" rel="stylesheet">
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="Content/font-awesome.min.css" rel="stylesheet" />
+    <link href="Content/customApp.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <nav class="navbar navbar-fixed-top">
+            <div id="allPage">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <h4>ONLINE BOOKSTORE</h4>
+                    </div>
+                    <asp:Panel ID="mainPanel" runat="server">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="nav-link" runat="server"><a href="Default.aspx">Home</a></li>
+                            <li class="nav-link" runat="server"><a href="Memberpage.aspx">Members</a></li>
+                            <li class="nav-link" runat="server"><a href="Narayan.aspx">Deals</a></li>
+                            <li class="nav-link" runat="server"><a href="Bishnu.aspx">Review</a></li>
+                            <li class="nav-link" runat="server"><a href="Addmember.aspx">Sign In</a></li>
+                            <li class="nav-link" runat="server"><a href="balkrishna.aspx">Contact Us</a></li>
+                            <li runat="server">
+                                <asp:LinkButton ID="mainLinkButton" runat="server" OnClick="Switch_Navigation_back"><i id="mainbar" class="fa fa-bars fa-lg" aria-hidden="true"></i></asp:LinkButton></li>
+                        </ul>
+                    </asp:Panel>
+                    <asp:Panel ID="menuPanel" runat="server">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li id="menu" runat="server">MENU</li>
+                            <li runat="server">
+                                <asp:LinkButton ID="menuLinkButton" runat="server" OnClick="Switch_Navigation"><i id="menubar" class="fa fa-bars fa-lg" aria-hidden="true"></i></asp:LinkButton></li>
+                        </ul>
+                    </asp:Panel>
+                </div>
+            </div>
+        </nav>
+        <div>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="footer">
+            &copy; All Rights Reserved - 2017 Fall COMP - 229 <strong>ASP.NET</strong>
+        </div>
+
+    </form>
+
+    <!-- JaveScript Section -->
+    <script src="Scripts/jquery-2.2.4.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/Application.js"></script>
+</body>
+</html>

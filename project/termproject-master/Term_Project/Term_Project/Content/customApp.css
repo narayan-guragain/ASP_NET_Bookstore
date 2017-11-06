@@ -1,0 +1,356 @@
+﻿/* Custom CSS */
+/* Student Name: Chandra K. Rai, Narayan Guragain, Bishnu Khanal, Balkrishna Dhakal, Frederico de Moraes Galdino */
+/* Submitted to: S. M. Reza Dibaj */
+/* Date: Oct 07, 2017 */
+/* File Name: customApp.css */
+
+* {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    color: gray;
+}
+
+#allPage {
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.nav-link {
+    border-top: 4px solid white;
+    transition: border-top .2s;
+    letter-spacing: 1px;
+}
+
+    .nav-link:hover {
+        border-top: 4px solid dodgerblue;
+        transition: border-top .2s;
+        color: black;
+    }
+
+a { 
+    background-color: transparent !important;
+    color: grey;
+}
+
+.navbar-header h4 {
+    letter-spacing: 4px;
+}
+
+#mainbar {
+    padding-top: 9px;
+    padding-left: 20px;
+}
+
+#menubar {
+    padding-top: 9px;
+    padding-left: 20px;
+}
+
+#menu {
+    padding-top: 22px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#mainPanel {
+    display: none;
+}
+
+.footer {
+    position: fixed;
+    height: 50px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: white;
+    text-align: left;
+}
+
+
+/* Default.aspx CSS Section */
+
+.my_container {
+    padding-top: 100px;
+    max-width: 1080px;
+    margin: auto;
+}
+
+.row {
+    float: left;
+    width: 100%;
+}
+
+.col-6 img {
+    float: right;
+    margin-bottom: 30px;
+}
+
+.row h1 {
+    padding-top: 100px;
+    padding-left: 20px;
+    color: black;
+}
+
+.row h4 {
+    padding-left: 20px;
+    color: black;
+    font-family: 'Sacramento', cursive;
+    font-size: 35px;
+}
+
+.row p {
+    color: black;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.color-4 h4 {
+    color: black;
+    padding-left: 20px;
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: 40px;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, col-40 {
+    float: left;
+    margin: 0 3% 20px 0;
+}
+
+.col-2 {
+    width: 45%;
+}
+
+.col-4 {
+    width: 47%;
+}
+
+    .col-4 img {
+        padding-left: 15px;
+    }
+
+.col-6 {
+    width: 100%;
+}
+
+div.row > div:last-child {
+    margin-right: 0;
+}
+
+.color-2 {
+    float: left;
+    padding-left: 30px;
+}
+
+.color-4 {
+    text-align: center;
+    min-height: 550px;
+    background: orange;
+    margin-left: 20px;
+}
+
+.color-3 {
+    text-align: center;
+    min-height: 550px;
+    background: limegreen;
+    margin-left: 20px;
+}
+
+    .color-3 h4 {
+        font-family: 'Reenie Beanie', cursive;
+        font-size: 40px;
+    }
+
+.color-6 {
+    min-height: 150px;
+    background: white;
+}
+
+.col-3 {
+    width: 100%;
+}
+
+.color-5 {
+    background: #f7f7f7;
+    min-height: 515px;
+}
+
+.col-5 {
+    width: 43%;
+    margin-left: 17px;
+    height: 190px;
+}
+
+.color-7 {
+    text-align: center;
+    min-height: 20px;
+    padding-top: 20px;
+    color: black;
+}
+
+.color-10 {
+    height: 60px;
+    text-align: center;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    letter-spacing: 1px;
+    color: black;
+}
+
+    .color-10 h5 {
+        color: gray;
+    }
+
+.color-7 h6 {
+    font-size: 65px;
+}
+
+.col-10 {
+    width: 30%;
+    float: left;
+    margin: 0 5% 20px 0;
+}
+
+.color-11 {
+    border-top: 1px solid #CCC;
+    height: 40px;
+}
+
+.col-12 {
+    width: 25%;
+    float: left;
+    margin: 0 2% 50px 0px;
+}
+
+.col-13 {
+    width: 16%;
+    float: left;
+}
+
+.col-14 {
+    width: 30%;
+    float: left;
+}
+
+.searchbox {
+    float: right;
+}
+
+.col-15 {
+    width: 45%;
+    float: left;
+}
+
+.color-15 {
+    height: 80px;
+    margin: 10px 5% 80px 0;
+}
+
+#followus {
+    text-align: right;
+}
+
+.social {
+    float: right;
+}
+
+.col-17 {
+    width: 100%;
+    margin: 5px 0 230px 15px;
+}
+
+.color-17 {
+    height: 518px;
+    background: #F6F7F6;
+}
+
+/* Bootstrap theme*/
+
+#myCarousel {
+    float: left;
+    width: 50%;
+}
+
+.color-17 h1 {
+    padding-top: 200px;
+    padding-right: 20px;
+    color: black;
+    font-family: 'Reenie Beanie', cursive;
+}
+
+/* Memberpage.aspx */
+
+.Data_Container {   
+    margin: 120px 0 0 550px;         
+}
+.Data_Container p {   
+    font-size: large;
+    color:grey;     
+}
+.col-18 {
+    width: 60%;
+    
+}
+
+/* addmember.aspx */
+
+.addmember_container {
+    margin: 120px 0 0 0px;    
+}
+.jumbotron {
+    height: 450px;
+    border-radius: 40px;
+}
+.col-md-6 {
+    padding-left: 15px;
+}
+
+/* ----------- narayan's style starts here -------------*/
+
+div.item {
+	margin: 0 auto;
+	margin-bottom: 60px;
+	text-align:center;
+}
+div.caption {
+	margin-bottom: 60px;
+	text-align: center;
+}
+
+div .col-md-4 p img.itemphoto {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 300px;
+}
+.aligncenter {
+	text-align:center;
+}
+.caption p span.author {
+	font-weight:bold;
+}
+
+.caption p i.fa-shopping-cart {
+	color: white;
+	padding-right: 10px;
+}
+
+.caption p.pricestyle {
+	color: red;
+	font-weight: bold;	
+}
+td h6.category .cbutton {
+	background: transparent;
+	border: none !important;
+}
+div.caption p .hiddenButton {
+	background: transparent;
+	border: none !important;
+}
+ div.cartdiv button.chiddenbutton {
+	background: transparent;
+	border: none !important;
+}
+
+/* ----------- narayan's style starts here -------------*/
+
